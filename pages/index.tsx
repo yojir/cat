@@ -5,7 +5,7 @@ import styles from './index.module.css';
 // getServerSidePropsから渡されるpropsの型
 type Props = {
   initialImageUrl: string;
-}
+};
 
 const IndexPage: NextPage<Props> = ({ initialImageUrl }) => {
   const [imageUrl, setImageUrl] = useState(initialImageUrl);
